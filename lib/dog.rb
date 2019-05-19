@@ -10,9 +10,14 @@ class Dog
   end
 
   def self.all
+    # Use each to get each dogs from piped array
     @@all.each do |dog|
-      puts dog.name
+      puts dog.name # Show each specific dogs from piped array using "each" (above)
     end
+  end
+
+  def self.clear
+
   end
 
 end
