@@ -17,7 +17,7 @@ class Dog
   end
 
   def self.clear_all
-    @@all.clear
+    @@all.clear # Source: https://ruby-doc.org/core-2.6.1/Array.html
   end
 
 end
